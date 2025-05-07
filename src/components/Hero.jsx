@@ -51,6 +51,27 @@ const Hero = () => {
               </button>
              
             </div>
+            <div className="flex flex-col sm:flex-row gap-5 sm:items-center pt-6 lg:p-7 border-neutral-200 dark:border-neutral-800">
+              <div className="flex -space-x-3">
+                <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="User" className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white dark:border-neutral-900 object-cover" />
+                <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="User" className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white dark:border-neutral-900 object-cover" />
+                <img src="https://randomuser.me/api/portraits/women/24.jpg" alt="User" className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white dark:border-neutral-900 object-cover" />
+                <span className="flex items-center justify-center w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white dark:border-neutral-900 bg-neutral-900 dark:bg-amber-500 text-white dark:text-neutral-900 text-xs font-medium">+5k</span>
+              </div>
+              <div className="space-y-1">
+                <div className="flex items-center">
+                  <i className="bx bxs-star text-amber-500 mr-1"></i>
+                  <i className="bx bxs-star text-amber-500 mr-1"></i>
+                  <i className="bx bxs-star text-amber-500 mr-1"></i>
+                  <i className="bx bxs-star text-amber-500 mr-1"></i>
+                  <i className="bx bxs-star-half text-amber-500 mr-1"></i>
+                  <span className="text-neutral-600 dark:text-neutral-400 text-sm ml-1">4.8/5</span>
+                </div>
+                <p className="text-neutral-600 dark:text-neutral-400 text-sm" >Trusted by 
+                <span className="font-bold text-neutral-900 dark:text-white"> 5,000+</span> developers worldwide
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
