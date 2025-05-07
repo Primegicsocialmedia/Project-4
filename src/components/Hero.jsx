@@ -40,7 +40,13 @@ const Hero = () => {
               <button className="px-6 py-3 lg:px-7 lg:py-3.5 rounded-lg bg-neutral-900 hover:bg-black text-white dark:bg-amber-500 dark:hover:bg-amber-600 dark:text-neutral-900 font-medium shadow-lg
               hover:shadow-neutral-900/20 dark:hover:shadow-amber-500/20 flex items-center transition group">
                 <i className="bx bx-code-alt mr-2 lg:mr-3 text-lg lg:text-xl group-hover:rotate-12 transition-transform">
-                  <span>Start Coding</span>
+                  <span className="px-2">Start Coding</span>
+                </i>
+              </button>
+              <button className="px-6 py-3 lg:px-7 lg:py-3.5 rounded-lg bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-white font-medium  hover:bg-neutral-200 dark:hover:bg-neutral-700 border border-neutral-300 dark:border-neutral-700 
+              flex items-center transition group">
+                <i className="bx bx-book-open mr-2 lg:mr-3 text-lg lg:text-xl opacity-70 group-hover:opacity-100 transition-opacity">
+                  <span className="px-2">Documentation</span>
                 </i>
               </button>
              
